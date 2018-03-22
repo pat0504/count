@@ -31,3 +31,13 @@ for letter in hello:
     count +=1
 print("total: " + str(count)) 
 print("C: " + str(tally_c) + " G: " + str(tally_g) + " A: " + str(tally_a) + " T: " + str(tally_t))
+
+per_C = tally_c / count * 100
+print(per_C)
+per_G = tally_g / count * 100
+print(per_G)
+per_A = tally_a / count * 100
+print(per_A)
+per_T = tally_t / count * 100
+print(per_T)
+print("C%: " + str(per_C) + " G%: " + str(per_G))
